@@ -289,6 +289,7 @@ class PaymentDealType(enum.IntEnum):
 
 
 class PaymentCardType(enum.IntEnum):
+    UNKNOWN = 0
     ISRACARD = 1
     VISA = 2
     MASTERCARD = 3
